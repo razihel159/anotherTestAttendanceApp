@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parent Dashboard"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvStudentAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Attendance: 85%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStudentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location: School"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Attendance Calendar"/>
+
+    <Button
+        android:id="@+id/btnViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Messages from Teachers"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+
